@@ -53,7 +53,9 @@ a:visited {
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 .category {
   background-color: rgba(255, 255, 255, 0.9);
   flex: 0 0 170px;
@@ -62,8 +64,15 @@ a:visited {
   font-size: 1.1rem;
   font-weight: 200;
   text-align: center;
-  cursor: default;
+  cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.category:hover {
+  background-color: #ffffff;
+}
+.link:active,
+.category:active {
+  transform: scale(0.98);
 }
 
 #clock {
@@ -77,4 +86,8 @@ a:visited {
   font-size: 1.2rem;
   margin-top: -13px;
   font-weight: 200;
+}
+
+.none {
+  display: none;
 }
