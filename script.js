@@ -36,20 +36,20 @@ function startTime() {
   hr = checkTime(hr);
   min = checkTime(min);
   document.getElementById("clock").innerHTML = hr + ":" + min;
-  let days = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let months = [
-    "Januar",
-    "Februar",
-    "März",
+    "January",
+    "February",
+    "March",
     "April",
-    "Mai",
-    "Juni",
-    "Juli",
+    "May",
+    "June",
+    "July",
     "August",
     "September",
-    "Oktober",
+    "October",
     "November",
-    "Dezember",
+    "December",
   ];
   let curWeekDay = days[today.getDay()];
   let curDay = today.getDate();
